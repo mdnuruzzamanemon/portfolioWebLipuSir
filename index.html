@@ -22,7 +22,7 @@
       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button> -->
-      <button class="navbarToggler" >
+      <button class="navbarToggler">
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- <div class="collapse navbar-collapse" id="navbarNav"></div> -->
@@ -30,11 +30,11 @@
         <button class="navCross"><i class="fa-solid fa-xmark"></i></button>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#timeline">Timeline</a></li>
-          <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
-          <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="./journals.html">Journals</a></li>
+          <li class="nav-item"><a class="nav-link" href="./supurvision.html">Supervisons</a></li>
+          <li class="nav-item"><a class="nav-link" href="./conference.html">Conferences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
           <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
       <div class="overlay"></div>
@@ -67,7 +67,7 @@
   </div>
 
   <!-- About me section -->
-  <div class="aboutMe bg-light">
+  <div class="aboutMe bg-light" id="about">
     <div class="container">
       <div class="sectionTitle">
         <h4>About Me</h4>
@@ -93,57 +93,79 @@
 
   <!-- Career Summary section -->
 
-<div class="careerSummary">
-  <div class="container my-5">
+  <div class="careerSummary">
+    <div class="container my-5">
 
-    <div class="sectionTitle">
-      <h4>Career Summary</h4>
-    </div>
-    <!-- Nav tabs -->
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-      <li class="nav-item">
-        <a class="nav-link active" id="industry-tab" data-toggle="tab" href="#industry" role="tab" aria-controls="industry" aria-selected="true">
-          <i class="fa-solid fa-industry"></i> Industry
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="institute-tab" data-toggle="tab" href="#institute" role="tab" aria-controls="institute" aria-selected="false">
-          <i class="fa-solid fa-university"></i> Institute
-        </a>
-      </li>
-    </ul>
-
-    <!-- Tab panes -->
-    <div class="tab-content careerContent">
-      <div class="tab-pane fade show active" id="industry" role="tabpanel" aria-labelledby="industry-tab">
-        <ul>
-          <li><i class="fa-solid fa-trophy"></i> Recipient of Global Talent Independent (GTI), Australia and Full work rights Australian Permanent Resident.</li>
-          <li><i class="fa-solid fa-user-tie"></i> Senior Member of IEEE (98353232) and associated with IEEE Power & Energy Society.</li>
-          <li><i class="fa-solid fa-briefcase"></i> Served in various leadership capacities, such as holding the position of Chairperson at Green University of Bangladesh (GUB), acting as Director for the Center for International Affairs at GUB, and providing advisory services to the IEEE Power & Energy Society at GUB.</li>
-          <li><i class="fa-solid fa-journal-whills"></i> Published several top-notch journals in IEEE Transactions, Elsevier, and Nature Science as a first and corresponding author.</li>
-          <li><i class="fa-solid fa-people-roof"></i> Managed and secured several research industry and academic grants as a project leader and co-researcher.</li>
-          <li><i class="fa-solid fa-users"></i> Supervised, co-supervised and mentored undergraduate and postgraduate students in local and overseas universities.</li>
-          <li><i class="fa-solid fa-medal"></i> Awarded First prize and gold medal in several exhibitions and conferences.</li>
-          <li><i class="fa-solid fa-award"></i> Awarded best paper award in reputed IEEE conferences.</li>
-          <li><i class="fa-solid fa-certificate"></i> Achieved excellent thesis awards in both Master’s and PhD study.</li>
-        </ul>
+      <div class="sectionTitle">
+        <h4>Career Summary</h4>
       </div>
-      <div class="tab-pane fade" id="institute" role="tabpanel" aria-labelledby="institute-tab">
-        <ul>
-          <li><i class="fa-solid fa-globe"></i> Top 2% researcher in the world published by Stanford University and Elsevier in 2022 and 2023.</li>
-          <li><i class="fa-solid fa-user-tie"></i> Senior Member of IEEE (98353232) and associated with IEEE Power & Energy Society.</li>
-          <li><i class="fa-solid fa-journal-whills"></i> Published several top-notch journals in IEEE Transactions, Elsevier, and Nature Science as a first and corresponding author.</li>
-          <li><i class="fa-solid fa-people-roof"></i> Managed and secured several research grants as a project leader and co-researcher.</li>
-          <li><i class="fa-solid fa-users"></i> Supervised, co-supervised and mentored undergraduate and postgraduate students in local and overseas universities.</li>
-          <li><i class="fa-solid fa-medal"></i> Awarded First prize and gold medal in several exhibitions and conferences.</li>
-          <li><i class="fa-solid fa-award"></i> Awarded best paper award in reputed IEEE conferences.</li>
-          <li><i class="fa-solid fa-certificate"></i> Achieved excellent thesis awards in both Master’s and PhD study.</li>
-          <li><i class="fa-solid fa-briefcase"></i> Served in various leadership capacities, such as holding the position of Chairperson at Green University of Bangladesh (GUB), acting as Director for the Center for International Affairs at GUB, and providing advisory services to the IEEE Power & Energy Society at GUB.</li>
-        </ul>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="industry-tab" data-toggle="tab" href="#industry" role="tab"
+            aria-controls="industry" aria-selected="true">
+            <i class="fa-solid fa-industry"></i> Industry
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="institute-tab" data-toggle="tab" href="#institute" role="tab"
+            aria-controls="institute" aria-selected="false">
+            <i class="fa-solid fa-university"></i> Institute
+          </a>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content careerContent">
+        <div class="tab-pane fade show active" id="industry" role="tabpanel" aria-labelledby="industry-tab">
+          <ul>
+            <li><i class="fa-solid fa-trophy"></i> Recipient of Global Talent Independent (GTI), Australia and Full work
+              rights Australian Permanent Resident.</li>
+            <li><i class="fa-solid fa-user-tie"></i> Senior Member of IEEE (98353232) and associated with IEEE Power &
+              Energy Society.</li>
+            <li><i class="fa-solid fa-briefcase"></i> Served in various leadership capacities, such as holding the
+              position of Chairperson at Green University of Bangladesh (GUB), acting as Director for the Center for
+              International Affairs at GUB, and providing advisory services to the IEEE Power & Energy Society at GUB.
+            </li>
+            <li><i class="fa-solid fa-journal-whills"></i> Published several top-notch journals in IEEE Transactions,
+              Elsevier, and Nature Science as a first and corresponding author.</li>
+            <li><i class="fa-solid fa-people-roof"></i> Managed and secured several research industry and academic
+              grants as a project leader and co-researcher.</li>
+            <li><i class="fa-solid fa-users"></i> Supervised, co-supervised and mentored undergraduate and postgraduate
+              students in local and overseas universities.</li>
+            <li><i class="fa-solid fa-medal"></i> Awarded First prize and gold medal in several exhibitions and
+              conferences.</li>
+            <li><i class="fa-solid fa-award"></i> Awarded best paper award in reputed IEEE conferences.</li>
+            <li><i class="fa-solid fa-certificate"></i> Achieved excellent thesis awards in both Master’s and PhD study.
+            </li>
+          </ul>
+        </div>
+        <div class="tab-pane fade" id="institute" role="tabpanel" aria-labelledby="institute-tab">
+          <ul>
+            <li><i class="fa-solid fa-globe"></i> Top 2% researcher in the world published by Stanford University and
+              Elsevier in 2022 and 2023.</li>
+            <li><i class="fa-solid fa-user-tie"></i> Senior Member of IEEE (98353232) and associated with IEEE Power &
+              Energy Society.</li>
+            <li><i class="fa-solid fa-journal-whills"></i> Published several top-notch journals in IEEE Transactions,
+              Elsevier, and Nature Science as a first and corresponding author.</li>
+            <li><i class="fa-solid fa-people-roof"></i> Managed and secured several research grants as a project leader
+              and co-researcher.</li>
+            <li><i class="fa-solid fa-users"></i> Supervised, co-supervised and mentored undergraduate and postgraduate
+              students in local and overseas universities.</li>
+            <li><i class="fa-solid fa-medal"></i> Awarded First prize and gold medal in several exhibitions and
+              conferences.</li>
+            <li><i class="fa-solid fa-award"></i> Awarded best paper award in reputed IEEE conferences.</li>
+            <li><i class="fa-solid fa-certificate"></i> Achieved excellent thesis awards in both Master’s and PhD study.
+            </li>
+            <li><i class="fa-solid fa-briefcase"></i> Served in various leadership capacities, such as holding the
+              position of Chairperson at Green University of Bangladesh (GUB), acting as Director for the Center for
+              International Affairs at GUB, and providing advisory services to the IEEE Power & Energy Society at GUB.
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
   <!-- ACADEMIC QUALIFICATION section -->
@@ -372,7 +394,7 @@
   </div>
 
   <!-- EMPLOYMENT EXPERIENCE section -->
-  <div class="employmentExp">
+  <div class="employmentExp" id="experience">
     <div class="container">
 
       <div class="sectionTitle">
@@ -539,7 +561,7 @@
   </div>
 
   <!-- rewards -->
-  <div class="rewardSection">
+  <div class="rewardSection" id="awards">
     <div class="container">
       <div class="sectionTitle">
         <h4>Awards & Recognitions</h4>
@@ -549,9 +571,10 @@
         <div class="accordion-item">
           <div class="accordion-title" data-index="0">
             <p>
-            <span class="accordion-icon">🏆</span>
-            <span>Research Excellence Award by Center for Research Innovation and Transformation (CRIT), Green
-              University of Bangladesh.</span></p>
+              <span class="accordion-icon">🏆</span>
+              <span>Research Excellence Award by Center for Research Innovation and Transformation (CRIT), Green
+                University of Bangladesh.</span>
+            </p>
             <i class="fa-solid fa-angle-right"></i>
           </div>
           <div class="accordion-content">
@@ -562,9 +585,10 @@
         <div class="accordion-item">
           <div class="accordion-title" data-index="1">
             <p>
-            <span class="accordion-icon">🏅</span>
-            <span>Best of the Best Paper Award in the 4th International Conference on Sustainable Technologies for
-              Industry 4.0 (STI 2022), 17-18 December 2022, Green University of Bangladesh.</span></p>
+              <span class="accordion-icon">🏅</span>
+              <span>Best of the Best Paper Award in the 4th International Conference on Sustainable Technologies for
+                Industry 4.0 (STI 2022), 17-18 December 2022, Green University of Bangladesh.</span>
+            </p>
             <i class="fa-solid fa-angle-right"></i>
           </div>
           <div class="accordion-content">
@@ -576,9 +600,11 @@
         <div class="accordion-item">
           <div class="accordion-title" data-index="2">
             <p>
-            <span class="accordion-icon">🏆</span>
-            <span>First Prize Award in the IET Automation and Control Enhancing Innovation Competition (ACEiC 2018), 24
-              October 2018, UNITEN, Malaysia.</span></p>
+              <span class="accordion-icon">🏆</span>
+              <span>First Prize Award in the IET Automation and Control Enhancing Innovation Competition (ACEiC 2018),
+                24
+                October 2018, UNITEN, Malaysia.</span>
+            </p>
             <i class="fa-solid fa-angle-right"></i>
           </div>
           <div class="accordion-content">
@@ -590,9 +616,10 @@
         <div class="accordion-item">
           <div class="accordion-title" data-index="3">
             <p>
-            <span class="accordion-icon">🏅</span>
-            <span>Best Paper Award in the IEEE Symposium on Computer Applications and Industrial Electronics (ISCAIE
-              2018), 28-29 April 2018, Penang, Malaysia.</span></p>
+              <span class="accordion-icon">🏅</span>
+              <span>Best Paper Award in the IEEE Symposium on Computer Applications and Industrial Electronics (ISCAIE
+                2018), 28-29 April 2018, Penang, Malaysia.</span>
+            </p>
             <i class="fa-solid fa-angle-right"></i>
           </div>
           <div class="accordion-content">
@@ -604,9 +631,10 @@
         <div class="accordion-item">
           <div class="accordion-title" data-index="4">
             <p>
-            <span class="accordion-icon">🥇</span>
-            <span>Gold Medal Award in the 29th International Invention, Innovation and Technology Exhibitions (ITEX
-              2018),10 -12 May 2018, Kuala Lumpur Convention Centre collaboration with MOE, MOSTI, and MCEB.</span></p>
+              <span class="accordion-icon">🥇</span>
+              <span>Gold Medal Award in the 29th International Invention, Innovation and Technology Exhibitions (ITEX
+                2018),10 -12 May 2018, Kuala Lumpur Convention Centre collaboration with MOE, MOSTI, and MCEB.</span>
+            </p>
             <i class="fa-solid fa-angle-right"></i>
           </div>
           <div class="accordion-content">
@@ -618,9 +646,10 @@
         <div class="accordion-item">
           <div class="accordion-title" data-index="5">
             <p>
-            <span class="accordion-icon">🏅</span>
-            <span>Best Paper Award in the 6th International Conference on Electrical Engineering and Informatics 2017
-              (ICEEI 2017), 25 - 27 November 2017, Langkawi, Malaysia.</span></p>
+              <span class="accordion-icon">🏅</span>
+              <span>Best Paper Award in the 6th International Conference on Electrical Engineering and Informatics 2017
+                (ICEEI 2017), 25 - 27 November 2017, Langkawi, Malaysia.</span>
+            </p>
             <i class="fa-solid fa-angle-right"></i>
           </div>
           <div class="accordion-content">
@@ -632,9 +661,10 @@
         <div class="accordion-item">
           <div class="accordion-title" data-index="6">
             <p>
-            <span class="accordion-icon">🥇</span>
-            <span>Gold Medal Award in the 28th International Invention, Innovation, and Technology Exhibitions (ITEX
-              2017), 11-13 May 2017, Kuala Lumpur Convention Centre collaboration with MOE, MOSTI, and MCEB.</span></p>
+              <span class="accordion-icon">🥇</span>
+              <span>Gold Medal Award in the 28th International Invention, Innovation, and Technology Exhibitions (ITEX
+                2017), 11-13 May 2017, Kuala Lumpur Convention Centre collaboration with MOE, MOSTI, and MCEB.</span>
+            </p>
             <i class="fa-solid fa-angle-right"></i>
           </div>
           <div class="accordion-content">
@@ -645,10 +675,11 @@
         <div class="accordion-item">
           <div class="accordion-title" data-index="7">
             <p>
-            <span class="accordion-icon">🥇</span>
-            <span>Gold Medal Award in Malaysia Technology Expo (MTE 2016),16 – 18 February 2017, Putra World Trade
-              Centre, Kuala Lumpur collaboration with MOE, MOSTI, and PROTEMP Exhibitions and Conferences Sdn
-              Bhd.</span></p>
+              <span class="accordion-icon">🥇</span>
+              <span>Gold Medal Award in Malaysia Technology Expo (MTE 2016),16 – 18 February 2017, Putra World Trade
+                Centre, Kuala Lumpur collaboration with MOE, MOSTI, and PROTEMP Exhibitions and Conferences Sdn
+                Bhd.</span>
+            </p>
             <i class="fa-solid fa-angle-right"></i>
           </div>
           <div class="accordion-content">
@@ -660,9 +691,11 @@
         <div class="accordion-item">
           <div class="accordion-title" data-index="8">
             <p>
-            <span class="accordion-icon">🥇</span>
-            <span>Gold Medal Award in PERINTIS 2016 organized by UNITEN in collaboration with MOE, MOSTI, and UNITEX on
-              Nov 16, 2016.</span></p>
+              <span class="accordion-icon">🥇</span>
+              <span>Gold Medal Award in PERINTIS 2016 organized by UNITEN in collaboration with MOE, MOSTI, and UNITEX
+                on
+                Nov 16, 2016.</span>
+            </p>
             <i class="fa-solid fa-angle-right"></i>
           </div>
           <div class="accordion-content">
@@ -674,9 +707,11 @@
         <div class="accordion-item">
           <div class="accordion-title" data-index="9">
             <p>
-            <span class="accordion-icon">🥇</span>
-            <span>Gold Medal Award in PERINTIS 2016 organized by UNITEN in collaboration with MOE, MOSTI, and UNITEX on
-              Nov 16, 2016.</span></p>
+              <span class="accordion-icon">🥇</span>
+              <span>Gold Medal Award in PERINTIS 2016 organized by UNITEN in collaboration with MOE, MOSTI, and UNITEX
+                on
+                Nov 16, 2016.</span>
+            </p>
             <i class="fa-solid fa-angle-right"></i>
           </div>
           <div class="accordion-content">
@@ -688,9 +723,10 @@
         <div class="accordion-item">
           <div class="accordion-title" data-index="10">
             <p>
-            <span class="accordion-icon">🎓</span>
-            <span>Norwegian Ministry of Foreign Affairs Scholarship by Asian Institute of Technology to study Master
-              Degree for 2 years (2011-2013).</span></p>
+              <span class="accordion-icon">🎓</span>
+              <span>Norwegian Ministry of Foreign Affairs Scholarship by Asian Institute of Technology to study Master
+                Degree for 2 years (2011-2013).</span>
+            </p>
             <i class="fa-solid fa-angle-right"></i>
           </div>
           <div class="accordion-content">
@@ -701,9 +737,10 @@
         <div class="accordion-item">
           <div class="accordion-title" data-index="11">
             <p>
-            <span class="accordion-icon">🎓</span>
-            <span>Organization of Islamic Cooperation (OIC) Scholarship by Islamic University of Technology (IUT) to
-              study B. Sc. for 3 years (2005-2008).</span></p>
+              <span class="accordion-icon">🎓</span>
+              <span>Organization of Islamic Cooperation (OIC) Scholarship by Islamic University of Technology (IUT) to
+                study B. Sc. for 3 years (2005-2008).</span>
+            </p>
             <i class="fa-solid fa-angle-right"></i>
           </div>
           <div class="accordion-content">
@@ -717,196 +754,266 @@
   </div>
 
   <!-- Professional Activities section -->
-<div class="professionalActivities bg-light">
-  <div class="container">
+  <div class="professionalActivities bg-light">
+    <div class="container">
 
-    <div class="sectionTitle">
-      <h4>Professional Activities</h4>
-    </div>
+      <div class="sectionTitle">
+        <h4>Professional Activities</h4>
+      </div>
 
-    <ul class="activityList">
-      <li>
-        <div class="activityIcon">
-          <i class="fa-solid fa-bolt"></i>
-        </div>
-        <div class="activityContent">
-          <h5>Technical Session Chair</h5>
-          <p>5th International Conference of Energy and Environment 2019 (ICEE2019) on 10-11 July 2019 at Bangi Resort Hotel organized by Universiti Tenaga Nasional (UNITEN).</p>
-        </div>
-      </li>
-      <li>
-        <div class="activityIcon">
-          <i class="fa-solid fa-chalkboard-teacher"></i>
-        </div>
-        <div class="activityContent">
-          <h5>Keynote Session Chair and Technical Session Chair</h5>
-          <p>5th International Conference on Sustainable Technologies for Industry 5.0 (STI 2023) on 9-10 December 2023, Green University of Bangladesh.</p>
-        </div>
-      </li>
-      <li>
-        <div class="activityIcon">
-          <i class="fa-solid fa-chalkboard-teacher"></i>
-        </div>
-        <div class="activityContent">
-          <h5>Keynote Session Chair and Technical Session Chair</h5>
-          <p>4th International Conference on Sustainable Technologies for Industry 4.0 (STI 2022) on 17-18 December 2022, Green University of Bangladesh.</p>
-        </div>
-      </li>
-      <li>
-        <div class="activityIcon">
-          <i class="fa-solid fa-users"></i>
-        </div>
-        <div class="activityContent">
-          <h5>Session Chair</h5>
-          <p>Webinar on "Higher Studies Abroad: Scopes in Malaysia” organized by Green University Centre for International Affairs (GCiA) and IEEE Power & Energy Society Green University of Bangladesh.</p>
-        </div>
-      </li>
-      <li>
-        <div class="activityIcon">
-          <i class="fa-solid fa-book"></i>
-        </div>
-        <div class="activityContent">
-          <h5>Session Chair</h5>
-          <p>Webinar on "Writing and Publishing High Impact Journal Article” organized by Green University Centre for International Affairs (GCiA) and IEEE Power & Energy Society Green University of Bangladesh.</p>
-        </div>
-      </li>
-      <li>
-        <div class="activityIcon">
-          <i class="fa-solid fa-graduation-cap"></i>
-        </div>
-        <div class="activityContent">
-          <h5>Session Chair</h5>
-          <p>Seminar on "Higher Studies and Career Opportunities in UK” organized by Green University Centre for International Affairs (GCiA).</p>
-        </div>
-      </li>
-      <li>
-        <div class="activityIcon">
-          <i class="fa-solid fa-globe"></i>
-        </div>
-        <div class="activityContent">
-          <h5>Session Chair</h5>
-          <p>Seminar on "Graduate Study Abroad and Global Career Preparation” organized by Green University Centre for International Affairs (GCiA).</p>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<!-- subject thought -->
-<div class="subjectThought">
-  <div class="container">
-    <div class="sectionTitle">
-      <h4>SUBJECTS TAUGHT</h4>
-    </div>
-    <div class="subThoughtBoxs">
-      <div class="subThoughtBox">
-        <div class="subjectIcon">
-          <i class="fa-solid fa-bolt"></i>
-        </div>
-        <h4>Transmission and Distribution of Electrical Power</h4>
-        <p>EEE 327</p>
-      </div>
-      <div class="subThoughtBox">
-        <div class="subjectIcon">
-          <i class="fa-solid fa-shield"></i>
-        </div>
-        <h4>Power System Protection</h4>
-        <p>EEE 427</p>
-      </div>
-      <div class="subThoughtBox">
-        <div class="subjectIcon">
-          <i class="fa-solid fa-cogs"></i>
-        </div>
-        <h4>Electrical Machine</h4>
-        <p>EEE 207</p>
-      </div>
-      <div class="subThoughtBox">
-        <div class="subjectIcon">
-          <i class="fa-solid fa-microchip"></i>
-        </div>
-        <h4>Power Electronics</h4>
-        <p>EEE 303</p>
-      </div>
-      <div class="subThoughtBox">
-        <div class="subjectIcon">
-          <i class="fa-solid fa-network-wired"></i>
-        </div>
-        <h4>Power System</h4>
-        <p>EEE 301</p>
-      </div>
-      <div class="subThoughtBox">
-        <div class="subjectIcon">
-          <i class="fa-solid fa-industry"></i>
-        </div>
-        <h4>Power Plant Engineering</h4>
-        <p>EEE 432</p>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- book section -->
-<div class="bookSection">
-  <div class="container">
-    <div class="sectionTitle">
-      <h4>BOOK/BOOK CHAPTER</h4>
-    </div>
-    <div class="bookCards">
-      <div class="bookCard">
-        <div class="bookCardContent">
-          <div class="icon">
-            <i class="fas fa-book"></i>
+      <ul class="activityList">
+        <li>
+          <div class="activityIcon">
+            <i class="fa-solid fa-bolt"></i>
           </div>
-          <h4>State-Of-Charge for Lithium-Ion Batteries: A Hybrid Intelligent Optimization Approach</h4>
-          <p class="authors">M.S. Hossain Lipu, Aini Hussain, Afida Ayob, Mohamad Hanif Md Saad, M.A. Hannan</p>
-          <p class="publisher">UKM Press, 2021</p>
-        </div>
-      </div>
-      <div class="bookCard">
-        <div class="bookCardContent">
-          <div class="icon">
-            <i class="fas fa-book-open"></i>
+          <div class="activityContent">
+            <h5>Technical Session Chair</h5>
+            <p>5th International Conference of Energy and Environment 2019 (ICEE2019) on 10-11 July 2019 at Bangi Resort
+              Hotel organized by Universiti Tenaga Nasional (UNITEN).</p>
           </div>
-          <h4>Feasibility Study of Combined Cycle Power Plant in Context of Bangladesh</h4>
-          <p class="authors">Md. Sazal Miah, Shishir Kumar Bhowmick, Md. Rezaul Karim Sohel, Md. Abdul Momen Swazal, Sazib Mittro, M. S. Hossain Lipu</p>
-          <p class="publisher">Intelligent Sustainable Systems, Springer, Singapore, ISBN 978-981-16-2422-3, 2021</p>
+        </li>
+        <li>
+          <div class="activityIcon">
+            <i class="fa-solid fa-chalkboard-teacher"></i>
+          </div>
+          <div class="activityContent">
+            <h5>Keynote Session Chair and Technical Session Chair</h5>
+            <p>5th International Conference on Sustainable Technologies for Industry 5.0 (STI 2023) on 9-10 December
+              2023, Green University of Bangladesh.</p>
+          </div>
+        </li>
+        <li>
+          <div class="activityIcon">
+            <i class="fa-solid fa-chalkboard-teacher"></i>
+          </div>
+          <div class="activityContent">
+            <h5>Keynote Session Chair and Technical Session Chair</h5>
+            <p>4th International Conference on Sustainable Technologies for Industry 4.0 (STI 2022) on 17-18 December
+              2022, Green University of Bangladesh.</p>
+          </div>
+        </li>
+        <li>
+          <div class="activityIcon">
+            <i class="fa-solid fa-users"></i>
+          </div>
+          <div class="activityContent">
+            <h5>Session Chair</h5>
+            <p>Webinar on "Higher Studies Abroad: Scopes in Malaysia” organized by Green University Centre for
+              International Affairs (GCiA) and IEEE Power & Energy Society Green University of Bangladesh.</p>
+          </div>
+        </li>
+        <li>
+          <div class="activityIcon">
+            <i class="fa-solid fa-book"></i>
+          </div>
+          <div class="activityContent">
+            <h5>Session Chair</h5>
+            <p>Webinar on "Writing and Publishing High Impact Journal Article” organized by Green University Centre for
+              International Affairs (GCiA) and IEEE Power & Energy Society Green University of Bangladesh.</p>
+          </div>
+        </li>
+        <li>
+          <div class="activityIcon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div class="activityContent">
+            <h5>Session Chair</h5>
+            <p>Seminar on "Higher Studies and Career Opportunities in UK” organized by Green University Centre for
+              International Affairs (GCiA).</p>
+          </div>
+        </li>
+        <li>
+          <div class="activityIcon">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="activityContent">
+            <h5>Session Chair</h5>
+            <p>Seminar on "Graduate Study Abroad and Global Career Preparation” organized by Green University Centre for
+              International Affairs (GCiA).</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- subject thought -->
+  <div class="subjectThought">
+    <div class="container">
+      <div class="sectionTitle">
+        <h4>SUBJECTS TAUGHT</h4>
+      </div>
+      <div class="subThoughtBoxs">
+        <div class="subThoughtBox">
+          <div class="subjectIcon">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <h4>Transmission and Distribution of Electrical Power</h4>
+          <p>EEE 327</p>
+        </div>
+        <div class="subThoughtBox">
+          <div class="subjectIcon">
+            <i class="fa-solid fa-shield"></i>
+          </div>
+          <h4>Power System Protection</h4>
+          <p>EEE 427</p>
+        </div>
+        <div class="subThoughtBox">
+          <div class="subjectIcon">
+            <i class="fa-solid fa-cogs"></i>
+          </div>
+          <h4>Electrical Machine</h4>
+          <p>EEE 207</p>
+        </div>
+        <div class="subThoughtBox">
+          <div class="subjectIcon">
+            <i class="fa-solid fa-microchip"></i>
+          </div>
+          <h4>Power Electronics</h4>
+          <p>EEE 303</p>
+        </div>
+        <div class="subThoughtBox">
+          <div class="subjectIcon">
+            <i class="fa-solid fa-network-wired"></i>
+          </div>
+          <h4>Power System</h4>
+          <p>EEE 301</p>
+        </div>
+        <div class="subThoughtBox">
+          <div class="subjectIcon">
+            <i class="fa-solid fa-industry"></i>
+          </div>
+          <h4>Power Plant Engineering</h4>
+          <p>EEE 432</p>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-<!-- KEYNOTE SPEAKER -->
-
-<div class="keynoteSpeaker">
-  <div class="container">
-    <div class="sectionTitle">
-      <h4>KEYNOTE SPEAKER</h4>
-    </div>
-    <div class="keynoteList">
-      <div class="keynoteItem">
-        <i class="fas fa-microphone-alt"></i>
-        <div class="keynoteContent">
-          <h5>Battery Management System in Electric Vehicles: Challenges and Opportunities Towards Sustainable Transportation</h5>
-          <p>IEEE Ahsanullah University of Science and Technology (AUST), May 14, 2023</p>
-        </div>
+  <!-- book section -->
+  <div class="bookSection">
+    <div class="container">
+      <div class="sectionTitle">
+        <h4>BOOK/BOOK CHAPTER</h4>
       </div>
-      <div class="keynoteItem">
-        <i class="fas fa-microphone-alt"></i>
-        <div class="keynoteContent">
-          <h5>How to Publish Articles in a Reputed Journal</h5>
-          <p>Centre of Research, Innovation and Technology (CRIT), Green University of Bangladesh, August 11, 2022</p>
+      <div class="bookCards">
+        <div class="bookCard">
+          <div class="bookCardContent">
+            <div class="icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <h4>State-Of-Charge for Lithium-Ion Batteries: A Hybrid Intelligent Optimization Approach</h4>
+            <p class="authors">M.S. Hossain Lipu, Aini Hussain, Afida Ayob, Mohamad Hanif Md Saad, M.A. Hannan</p>
+            <p class="publisher">UKM Press, 2021</p>
+          </div>
         </div>
-      </div>
-      <div class="keynoteItem">
-        <i class="fas fa-microphone-alt"></i>
-        <div class="keynoteContent">
-          <h5>Journal Writing Series: Review paper</h5>
-          <p>Institute of Industry Revolution 4.0 (IR 4.0), The National University of Malaysia, April 09, 2021</p>
+        <div class="bookCard">
+          <div class="bookCardContent">
+            <div class="icon">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <h4>Feasibility Study of Combined Cycle Power Plant in Context of Bangladesh</h4>
+            <p class="authors">Md. Sazal Miah, Shishir Kumar Bhowmick, Md. Rezaul Karim Sohel, Md. Abdul Momen Swazal,
+              Sazib Mittro, M. S. Hossain Lipu</p>
+            <p class="publisher">Intelligent Sustainable Systems, Springer, Singapore, ISBN 978-981-16-2422-3, 2021</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+
+  <!-- KEYNOTE SPEAKER -->
+
+  <div class="keynoteSpeaker">
+    <div class="container">
+      <div class="sectionTitle">
+        <h4>KEYNOTE SPEAKER</h4>
+      </div>
+      <div class="keynoteList">
+        <div class="keynoteItem">
+          <i class="fas fa-microphone-alt"></i>
+          <div class="keynoteContent">
+            <h5>Battery Management System in Electric Vehicles: Challenges and Opportunities Towards Sustainable
+              Transportation</h5>
+            <p>IEEE Ahsanullah University of Science and Technology (AUST), May 14, 2023</p>
+          </div>
+        </div>
+        <div class="keynoteItem">
+          <i class="fas fa-microphone-alt"></i>
+          <div class="keynoteContent">
+            <h5>How to Publish Articles in a Reputed Journal</h5>
+            <p>Centre of Research, Innovation and Technology (CRIT), Green University of Bangladesh, August 11, 2022</p>
+          </div>
+        </div>
+        <div class="keynoteItem">
+          <i class="fas fa-microphone-alt"></i>
+          <div class="keynoteContent">
+            <h5>Journal Writing Series: Review paper</h5>
+            <p>Institute of Industry Revolution 4.0 (IR 4.0), The National University of Malaysia, April 09, 2021</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- references -->
+  <div class="referenceSection">
+    <div class="container">
+      <div class="sectionTitle">
+        <h4>REFERENCES</h4>
+      </div>
+      <div class="referenceCards">
+        <div class="referenceCard">
+          <div class="referenceCardContent">
+            <div class="icon">
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <h4>PROFESSOR DR. KASHEM M. MUTTAQI</h4>
+            <p class="affiliation">School of Electrical, Computer and Telecommunications Engineering</p>
+            <p class="institution">University of Wollongong, Australia</p>
+            <p class="email">Email: kashem@uow.edu.au</p>
+          </div>
+        </div>
+        <div class="referenceCard">
+          <div class="referenceCardContent">
+            <div class="icon">
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <h4>PROFESSOR DR. T.M. INDRA MAHLIA</h4>
+            <p class="affiliation">School of Civil and Environmental Engineering</p>
+            <p class="institution">University of Technology Sydney, Australia</p>
+            <p class="email">Email: TMIndra.Mahlia@uts.edu.au</p>
+          </div>
+        </div>
+        <div class="referenceCard">
+          <div class="referenceCardContent">
+            <div class="icon">
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <h4>PROFESSOR DR. M. A. HANNAN</h4>
+            <p class="affiliation">Department of Electrical Power Engineering, College of Engineering</p>
+            <p class="institution">Universiti Tenaga Nasional (UNITEN), Malaysia</p>
+            <p class="email">Email: hannan@uniten.edu.my</p>
+          </div>
+        </div>
+        <div class="referenceCard">
+          <div class="referenceCardContent">
+            <div class="icon">
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <h4>PROFESSOR DR. AINI HUSSAIN</h4>
+            <p class="affiliation">Department of Electrical, Electronic and Systems Engineering</p>
+            <p class="institution">The National University of Malaysia</p>
+            <p class="email">Email: draini@ukm.edu.my</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
 
 
 
